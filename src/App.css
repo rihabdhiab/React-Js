@@ -6,9 +6,31 @@
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  color: rgb(28, 12, 122);
+  color: rgb(33, 26, 138);
+  font-weight: 600;
+}
+/*Title*/
+h1 {
+  color: #594bda;
+  text-align: center;
+  padding-bottom: 20px;
+}
+/*Name Input*/
+.col {
+  padding-bottom: 5px;
+}
+/*gender box*/
+.gender {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width:70%;
 }
 
+.form-check-label{
+  color: rgb(97, 93, 93);
+}
+/*date of birth box*/
 .birth-input {
   display: flex;
   justify-content: space-around;
@@ -16,19 +38,22 @@
   margin-bottom: 10px;
 }
 
-.gender {
-  display: flex;
-  justify-content: space-between;
-  width:70%;
-  margin-top: 10px;
+.birth-input .form-select{
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
+/*Answer Box*/
 .form-floating {
+  margin-top: 10px;
+  color:rgb(136, 132, 132)
+} /*Check Box*/
+.form-check {
   margin-top: 10px;
 }
 
 .btn-primary {
   margin-left: 40%;
   margin-top: 10px;
-  width:100px;
+  width:25%;
 }
